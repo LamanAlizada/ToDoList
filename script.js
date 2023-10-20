@@ -7,7 +7,7 @@ updateOfButton.style.display = "none";
 
 addOfButton.addEventListener("click", () => {
   const taskName = newTask.value.trim();
-  if (taskName.length === 0) {
+  if (taskName.length == 0) {
     alert("Enter your task!!!");
   } else {
     const taskItem = document.createElement("li");
